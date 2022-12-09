@@ -51,6 +51,7 @@ export const Calculator = () => {
               name="rpm"
               id="rpm"
               style={{ width: "150px" }}
+              inputMode="numeric"
             />
           </div>
           <div className={styles.input}>
@@ -60,6 +61,7 @@ export const Calculator = () => {
               name="wheelDiameter"
               id="wheelDiameter"
               style={{ width: "150px" }}
+              inputMode="numeric"
             />
           </div>
           <button type="submit" style={{ width: "150px" }}>
